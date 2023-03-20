@@ -90,7 +90,7 @@ section .title::after {
     background: #fff;
     transform: translateX(-50%);
 }
-.column left > img{
+.column  img{
     width:100%;
 }
 
@@ -260,11 +260,12 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 500px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-}
+    height: 350px;
+    /* width: 400px; */
+    object-fit: contain;
+    /* border-radius: 50%;
+ */
+  }
 
 .about .about-content .right {
     width: 55%;
